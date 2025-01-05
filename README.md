@@ -39,3 +39,18 @@ print(color_image.dtype)
 eg, lets say save it as camera.py. Now run this command from command prompt
 python C:\Users\praje\~\lerobot\my_tests\camera.py --->directory of saved script
 
+output will be like--> (480, 640, 30) uint8
+
+2.) Using a phone as a secondary web camera
+-Install droicam in your phone
+-Install OBS Studio in laptop
+- Install DroidCam OBS plugin in both OBS Studio and the phone
+- In OBS Studio, head over to the sources section at the buttom
+- Click add, select use WIFI, enter wifi IP displayed in phone (make sure the laptop and phone should be on the same network)
+- Enter the resolution to 640 x 480
+- Then activate
+
+Teleoperate with camera:
+python lerobot/scripts/control_robot.py teleoperate --robot-path lerobot/configs/robot/so100.yaml
+
+
