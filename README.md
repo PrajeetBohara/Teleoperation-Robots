@@ -51,6 +51,7 @@ output will be like--> (480, 640, 30) uint8
 - Then activate
 
 Teleoperate with camera:
-python lerobot/scripts/control_robot.py teleoperate --robot-path lerobot/configs/robot/so100.yaml
+python lerobot/scripts/control_robot.py teleoperate --robot-path lerobot/configs/robot/so100.yaml 
+#In case it dont work try removing the camera part in the so100.yaml file.
 
 
